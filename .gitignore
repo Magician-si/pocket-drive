@@ -1,0 +1,7 @@
+build/
+dist/
+*.idsig
+*.p12
+*.keystore
+local.properties
+*.apk
