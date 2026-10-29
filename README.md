@@ -8,6 +8,14 @@ a browser, or mount it as a WebDAV drive.
 独立网页文件共享：把手机 / 电视上的一个文件夹共享到局域网，浏览器可浏览、
 预览、上传、下载，也支持 WebDAV 挂载。
 
+## Screenshot / 界面
+
+<p align="center">
+  <img src="docs/screenshots/web-ui.jpg" width="360" alt="Pocket Drive web UI">
+</p>
+
+<p align="center">网页端界面（手机浏览器）— Web UI in a phone browser</p>
+
 ## Features / 功能
 
 - HTTP server on port 8080, HTTPS server on port 8443 (self-signed cert)
