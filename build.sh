@@ -42,7 +42,7 @@ build_one() {
     --manifest "$SRC/AndroidManifest-$variant.xml" \
     --java "$out/gen" -A "$out/assets" \
     --min-sdk-version 26 --target-sdk-version 34 \
-    --version-code 1 --version-name 1.0 \
+    --version-code ${VERSION_CODE:-2} --version-name ${VERSION_NAME:-1.1} \
     "$out/compiled.zip"
   mkdir -p "$out/classes"
   find "$SRC/java" -name '*.java' > "$out/sources.txt"
